@@ -9,7 +9,7 @@ import BriefcaseIcon from "@/components/BriefcaseIcon";
 
 export default function Home() {
   return (
-    <main className="w-screen h-screen flex flex-col lg:flex-row pt:8 lg:pt-32 px-8 lg:px-60 2xl:px-80">
+    <main className="w-screen h-screen flex flex-col lg:flex-row pt:8 2xl:pt-32 px-8 lg:px-32 2xl:px-80">
       <div className="flex-1 flex flex-col gap-6">
         <motion.div
           initial={{ opacity: 0 }}
@@ -80,7 +80,7 @@ export default function Home() {
           <CustomCard
             src={"https://i.imgur.com/2luP2tr.jpeg"}
             title="Andrews University"
-            description="Honors graduate with a B.A Political Science"
+            description="B.A Political Science"
           />
           <CustomCard
             src={"https://i.imgur.com/UDDdZ75.jpeg"}
