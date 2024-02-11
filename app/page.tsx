@@ -16,7 +16,6 @@ export default function Home() {
           animate={{ opacity: 1 }}
           transition={{ duration: 2 }}
           className="flex lg:flex-col gap-6 lg:px-16 from-red-600 via-green-600 to-orange-400 rounded-3xl pt-8"
-          // bg-[radial-gradient(ellipse_at_bottom_left,_var(--tw-gradient-stops))] from-red-500 via-green-700 to-orange-400
         >
           <Card
             isBlurred
@@ -43,7 +42,7 @@ export default function Home() {
             </motion.div>
             <div className="flex flex-col justify-center items-center lg:justify-start lg:items-start gap-3 w-full lg:w-4/5 pt-8 lg:pt-20">
               <h1 className="text-4xl lg:text-6xl font-semibold">
-                Hey it's Lubasi
+                Hey it&apos;s Lubasi
               </h1>
               <h2 className="text-3xl font-medium italic uppercase">
                 Pre-<span className="text-orange-400">Law</span>
