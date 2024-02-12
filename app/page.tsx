@@ -54,9 +54,20 @@ export default function Home() {
               </p>
             </div>
             <motion.div className="flex justify-center lg:justify-start gap-4 pt-8">
-              <SocialIcon bgColor="gray" url="https://linkedin.com" />
-              <SocialIcon bgColor="gray" url="https://instagram.com" />
-              <SocialIcon bgColor="gray" url="https://x.com" />
+              <SocialIcon
+                bgColor="gray"
+                url="mailto:ngondaii@andrews.edu"
+                network="email"
+              />
+              <SocialIcon
+                bgColor="gray"
+                url="https://www.linkedin.com/in/lubasi-ngonda-b753142a7/"
+              />
+              <SocialIcon
+                bgColor="gray"
+                url="https://www.instagram.com/_lubasi_/"
+              />
+              <SocialIcon bgColor="gray" url="https://x.com/LubasiNgonda" />
             </motion.div>
           </Card>
         </motion.div>
@@ -81,11 +92,13 @@ export default function Home() {
             src={"https://i.imgur.com/2luP2tr.jpeg"}
             title="Andrews University"
             description="B.A Political Science"
+            url="https://andrews.edu"
           />
           <CustomCard
             src={"https://i.imgur.com/UDDdZ75.jpeg"}
             title="Forest Lake Academy"
             description="High Honors graduate"
+            url="forestlakeacademy.org"
           />
         </motion.div>
         <motion.div
@@ -107,11 +120,13 @@ export default function Home() {
             src={"https://i.imgur.com/BgPBFcL.jpeg"}
             title="Berrien County Circuit Court"
             description="Youth Specialist"
+            url="https://www.berriencounty.org/1058/Trial-Court"
           />
           <CustomCard
             src={"https://i.imgur.com/JhHRAqU.jpeg"}
             title="Fox Valley Christian Action"
             description="Legal Intern"
+            url="https://www.fvca.org"
           />
         </motion.div>
       </div>
